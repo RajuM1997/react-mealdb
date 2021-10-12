@@ -22,9 +22,9 @@ function App() {
           <Route exact path="/products">
             <Products />
           </Route>
-          <Router exact path="/product/:productId">
+          <Route exact path="/product/:productId">
             <ProductDetails />
-          </Router>
+          </Route>
           <Route path="*">
             <NotFound />
           </Route>
